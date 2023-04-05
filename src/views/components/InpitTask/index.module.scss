@@ -1,0 +1,59 @@
+.inputTask{
+display: grid;
+grid-template-columns: 1fr 50px 50px;
+margin-bottom: 15px;
+background: #DBE2EF;
+border-radius: 5px;
+padding-right: 15px;
+
+}
+.inputTaskLable{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  padding: 12px 15px;
+  cursor: pointer;
+}
+
+.inputTaskCheckbox{
+width: 20px;
+height: 20px;
+cursor: pointer;
+}
+.inputTaskTitle{
+  padding: 5px;
+  line-height: 1.2;
+}
+
+.inputTaskTitleEdit{
+  font: 1rem/1em 'Roboto', sans-serif;
+  border: none;
+  padding: 5px;
+  background: none;
+  box-shadow: 0 4px 0 -3px #3f72af;
+}
+
+.inputTaskEdit, .inputTaskRemove, .inputTaskSave{
+  display: block;
+  height: 100%;
+  border: none;
+  background: none no-repeat center center ;
+  cursor: pointer;
+  padding: 0;
+  transition: opacity 0.3s;
+}
+.inputTaskEdit{
+background-image: url('./images/edit.svg');
+}
+
+.inputTaskRemove{
+background-image: url('./images/trash.svg');
+}
+.inputTaskSave{
+  background-image: url('./images/check.svg');
+  }
+
+.inputTaskEdit:hover, .inputTaskRemove:hover{
+  opacity: 0.5;
+}
+
