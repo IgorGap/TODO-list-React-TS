@@ -12,15 +12,5 @@ npm install
 npm run dev
 <br>
 go to -> http://localhost:5173
-```
 
-## Сборка development
 
-npm start
-```
-
-## Сборка production
-
-```bash
-npm run build
-```
