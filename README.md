@@ -7,10 +7,11 @@
 
 ## Установка
 <br>
+Инициализация проекта:  
 npm install
 <br>
-npm run dev
+Запуск проекта в терминале: npm run dev
 <br>
-go to -> http://localhost:5173
+Запускается на странице -> http://localhost:5173
 
 
